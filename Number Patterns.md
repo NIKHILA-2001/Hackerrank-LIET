@@ -57,7 +57,7 @@ for i in range(1,int((n+1)/2)+1):
 for i in range(1,int(input())+1):
     print(str(i).rjust(i))
 ```
-## (2)
+## (3)
 **Sample Input 0**
 ```
 5
