@@ -1,4 +1,4 @@
-# NUMBER PATTERN
+# NUMBER PATTERNS
 
 PRINT THE BELOW MENTIONED PATTERN FOR ANY "N" VALUE. WHERE "N" INDICATES NO.OF ROWS.
 
@@ -16,6 +16,7 @@ N is only odd
 
 PATTERN AS SHOWN IN SAMPLE TEST CASE
 
+## (1)
 **Sample Input 0**
 ```
 5
@@ -36,4 +37,44 @@ for i in range(1,int((n+1)/2)+1):
         elif(j==n-i+1): print(j,end="")
         else: print(" ",end="")
     print()
+```
+## (2)
+**Sample Input 0**
+```
+5
+```
+**Sample Output 0**
+```
+1
+ 2
+  3
+   4
+    5
+```
+
+## Solution (Python):
+```py
+for i in range(1,int(input())+1):
+    print(str(i).rjust(i))
+```
+## (2)
+**Sample Input 0**
+```
+5
+```
+**Sample Output 0**
+```
+1
+01
+101
+0101
+10101
+```
+
+## Solution (Python):
+```py
+s=''
+for i in range(1,int(input())+1):
+    s=str(i%2)+s
+    print(s)
 ```
