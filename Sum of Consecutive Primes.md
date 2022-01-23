@@ -26,8 +26,8 @@ The output should be composed of lines, each corresponding to an input dataset.
 An output line should contain one non-negative integer indicating the number of ways for n and k specified in the corresponding dataset.
 You may assume that it is less than 2^31.
 
-### Solution(Python):
-```py
+### Solution(C):
+```c
 int ans[1125][15]= {0};
 int main()
 {
