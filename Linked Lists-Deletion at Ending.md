@@ -3,19 +3,19 @@ Write a program to create a linked list with the given number of elements(follow
 If there are no elements given then the head of the linked list will be null. After completing the insertion of all you will be given a value of "k". 
   Perform the deletion at ending k times. Print the elements in the linked list after successful completion of deletion.
 
-Note: Intially the linked list will be empty. The k value always will be less than no.of elements in the list
+Note: Intially the linked list will be empty. The k value always will be less than no.of elements in the list <br/>
 **Input Format**<br />
 ``
-First Line contains number of elements(n) to be inserted and followed the n+1 elements the (n+1)th element denotes k value
+First Line contains number of elements(n) to be inserted and followed the n+1 elements the (n+1)th element denotes k value.
 ``
 **Constraints**<br />
-``
+```
 0<=n<=100
 
 1<=element<=10000
 
 0<=k<=1000
-`` <br />
+``` <br />
 **Output Format**
 ```
 Print the elements in the linked list.
@@ -34,7 +34,7 @@ Print the elements in the linked list.
 1->2
 ```
 
-### Solution (Python)
+### Solution (C)
 ```c
 #include <stdio.h>
 #include <string.h>
