@@ -8,14 +8,13 @@ Note: Intially the linked list will be empty. The k value always will be less th
 ``
 First Line contains number of elements(n) to be inserted and followed the n+1 elements the (n+1)th element denotes k value.
 ``
-**Constraints**<br />
-```
-0<=n<=100
+**Constraints** <br />
 
-1<=element<=10000
-
+0<=n<=100 <br/>
+1<=element<=10000 <br/>
 0<=k<=1000
-``` <br />
+<br/>
+
 **Output Format**
 ```
 Print the elements in the linked list.
